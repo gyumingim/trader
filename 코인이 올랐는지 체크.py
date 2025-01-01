@@ -32,34 +32,6 @@ try:
             pyautogui.moveTo(958, 810)
             pyautogui.click()
             first = False
-        # 'div' 태그 중 id가 'p'로 시작하는 요소 선택
-        div_elements = driver.find_elements(By.XPATH, "//*[starts-with(@id, 'p')]")
-
-        texts = []
-        for element in div_elements:
-            # 각 div_elements에서 /div[1]/div[1]을 찾음
-            target_element = element.find_element(By.XPATH, './div[1]/div[1]')
-            if "M" in target_element.text:
-                break
-            texts.append(target_element.text)
-
-        # 텍스트 빈도 계산
-        text_counts = Counter(texts)
-        # dict_items 객체를 리스트로 변환
-        sorted_text_counts = list(text_counts.items())
-        # 날짜와 빈도수 추출
-        counts = [item[1] for item in sorted_text_counts]  # 빈도수
-
-        # 최대 주주 수치
-        try:
-            max_owner_amount = driver.find_element(By.XPATH, '/html/body/div[1]/main/div[1]/div[2]/div[2]/div[2]/div[2]/div[4]/div[2]/div/div[1]/div').text
-            max_owner_amount = float(max_owner_amount[:-1])
-            # 일정 이상이면 스캠
-            if (max_owner_amount > 50):
-                continue
-        except:
-            max_owner_amount = None
-
         try:
             # 마켓캡
             market_cap = driver.find_element(By.XPATH, '/html/body/div[1]/main/div[1]/div[2]/div[1]/div[1]/div/div[3]/span').text
