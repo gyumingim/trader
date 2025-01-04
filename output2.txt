@@ -257,7 +257,7 @@ https://pump.fun/coin/7FpjuY392qjjY68uJ8mcnFSEWN4E4t58hJmQiveTpump, COUNT : 0, M
 https://pump.fun/coin/8jgsWWBNek6j2wZZEqsWYiTViSztGUC5v8mpCL4zpump, COUNT : 0, MAX_OWNER : None, MARKET_CAP : None
 https://pump.fun/coin/5FigGHdfYfTvEj4yMF67ShBK5xfX28hSfUG7VxNmPYhk, COUNT : 0, MAX_OWNER : None, MARKET_CAP : None
 https://pump.fun/coin/upAktkWVBHo1vcpbZtHVX5AoHEecJoyiBEpYyMCpump, COUNT : 0, MAX_OWNER : None, MARKET_CAP : None
-https://pump.fun/coin/Bo7Y3Q8yDzwbQKfLkjno2aCatrFYWtBj3x33EaWxpump, COUNT : 1, MAX_OWNER : 30.37, MARKET_CAP : 33003 check
+https://pump.fun/coin/Bo7Y3Q8yDzwbQKfLkjno2aCatrFYWtBj3x33EaWxpump, COUNT : 1, MAX_OWNER : 30.37, MARKET_CAP : 33003 check 
 https://pump.fun/coin/Cyzs2xUzygdtJg3MoDmw6FaT98wXKxirUQUNVywipump, COUNT : 0, MAX_OWNER : 19.59, MARKET_CAP : 78425 check
 https://pump.fun/coin/AwGtcVRSsSajtx5vyyFvH7UyZPzew7JsbDauSNVnpump, COUNT : 0, MAX_OWNER : 20.51, MARKET_CAP : 88716 check
 https://pump.fun/coin/LmWWLeLFzaZA9U41Qe2zaVnj8pjpcQVccfnj3Jgpump, COUNT : 0, MAX_OWNER : None, MARKET_CAP : None
@@ -375,7 +375,7 @@ https://pump.fun/coin/9Aig4B6yEqUdUxRPuVsTcweq1g71ph3Xo5Hyfqpipump, COUNT : 0, M
 https://pump.fun/coin/2hewZzqeRHp1Y4zk4rYc6s5PCJvqD4Tag3FtBqVrpump, COUNT : 0, MAX_OWNER : None, MARKET_CAP : None
 https://pump.fun/coin/BmXsfjfevCXct6R5dcKLMuTFtxkc929UcMkToSiwpump, COUNT : 0, MAX_OWNER : 44.72, MARKET_CAP : 16482
 https://pump.fun/coin/2vTdhkFAqpchUJo8KNZmvbGQYWTfbthNoK5chn35pump, COUNT : 0, MAX_OWNER : 47.17, MARKET_CAP : 15004
-https://pump.fun/coin/4HqytpaB6c34Wh8SEpSM1oMTpvwQ7Lno7CBYGCrgpump, COUNT : 0, MAX_OWNER : 10.79, MARKET_CAP : 281272 checked
+https://pump.fun/coin/4HqytpaB6c34Wh8SEpSM1oMTpvwQ7Lno7CBYGCrgpump, COUNT : 0, MAX_OWNER : 10.79, MARKET_CAP : 281272 checked raise
 https://pump.fun/coin/w3GcsSGh5YwsENsogENUWZERpjKj36nAEH8Tztipump, COUNT : 10, MAX_OWNER : None, MARKET_CAP : 42536 checked
 https://pump.fun/coin/BuGHZMvrPNPpQUV6UyggEGsiA5L3Mc78FQYoWFLkpump, COUNT : 0, MAX_OWNER : None, MARKET_CAP : None
 https://pump.fun/coin/H27AyYCpXF3qKjDXEnV96T1783DCFHcnSQiQkJL2pump, COUNT : 0, MAX_OWNER : None, MARKET_CAP : None
