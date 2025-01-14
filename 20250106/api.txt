@@ -1,2 +1,5 @@
 https://gmgn.ai/defi/quotation/v1/rank/sol/pump_ranks/1h?new_creation=%7B%22filters%22:[],%22limit%22:80%7D&pump=%7B%22filters%22:[],%22limit%22:80%7D&completed=%7B%22filters%22:[],%22limit%22:60%7D
 https://gmgn.ai/defi/quotation/v1/rank/sol/pump_ranks/1h?new_creation=%7B%22filters%22:[],%22limit%22:20000%7D&pump=%7B%22filters%22:[],%22limit%22:80%7D&completed=%7B%22filters%22:[],%22limit%22:60%7D
+
+
+이걸로 하면 안될듯
