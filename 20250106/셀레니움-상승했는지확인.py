@@ -1,22 +1,21 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 from time import sleep
 import pyautogui
-import matplotlib.pyplot as plt
-from collections import Counter
-from datetime import datetime
 import pandas as pd
 import pyperclip
 
 # Selenium WebDriver 설정
 service = Service(GeckoDriverManager().install())
-driver = webdriver.Firefox(service=service)
+options = Options()
+options.add_argument("--disable-extensions")  # 확장 프로그램 비활성화
+driver = webdriver.Firefox(service=service, options=options)
 driver.maximize_window()
-
 # CSV 파일 읽기
-df = pd.read_csv('20250106/유명지갑보유코인_20250111_1344.csv')
+df = pd.read_csv('20250106/유명지갑보유코인_20250115_1740.csv')
 
 image_path = 'marketcap.png'
 search_region = (100, 238, 1400, 50)
@@ -35,8 +34,8 @@ try:
             # 웹페이지 접속
             url = f"https://pump.fun/coin/{address}"
             driver.get(url)
-
-            sleep(.5)
+            print(address)
+            sleep(1000)
 
             pyautogui.moveTo(958, 855)
             pyautogui.click()
@@ -88,7 +87,8 @@ try:
         except Exception as e:
             print(f"처리 중 오류 발생: {str(e)}")
             continue
-
+except Exception as e:
+    print(e)
 finally:
     driver.quit()
 

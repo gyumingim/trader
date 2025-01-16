@@ -1,5 +1,17 @@
 https://gmgn.ai/defi/quotation/v1/rank/sol/pump_ranks/1h?new_creation=%7B%22filters%22:[],%22limit%22:80%7D&pump=%7B%22filters%22:[],%22limit%22:80%7D&completed=%7B%22filters%22:[],%22limit%22:60%7D
 https://gmgn.ai/defi/quotation/v1/rank/sol/pump_ranks/1h?new_creation=%7B%22filters%22:[],%22limit%22:20000%7D&pump=%7B%22filters%22:[],%22limit%22:80%7D&completed=%7B%22filters%22:[],%22limit%22:60%7D
 
+https://gmgn.ai/defi/quotation/v1/rank/sol/swaps/24h?orderby=swaps&direction=desc&filters[]=renounced&filters[]=frozen
 
 이걸로 하면 안될듯
+
+https://gmgn.ai/defi/quotation/v1/rank/sol/pump_ranks/1h?new_creation=%7B%22filters%22:[],%22limit%22:10000%7D&pump=%7B%22filters%22:[],%22limit%22:10000%7D&completed=%7B%22filters%22:[],%22limit%22:10000%7D
+이걸로
+
+https://gmgn.ai/defi/quotation/v1/rank/sol/pump/1h?limit=10000&orderby=created_timestamp&direction=desc&new_creation=true
+얘는 renowned_counts 1넘는게 없음
+
+https://gmgn.ai/defi/quotation/v1/pairs/sol/new_pair_ranks/1h?limit=10000&new_pool=%7B%22filters%22:[],%22platforms%22:[%22pump%22,%22moonshot%22,%22raydium%22]%7D&burnt=%7B%22filters%22:[],%22platforms%22:[%22pump%22,%22moonshot%22,%22raydium%22]%7D&dexscreener_spent=%7B%22filters%22:[],%22min_created%22:%221440m%22,%22platforms%22:[%22pump%22,%22moonshot%22,%22raydium%22]%7D
+
+
+지금까지 병신이였던 이유 : 저 API는 데이터 종류가 3개인데 하나만 보고 있었음 ㅄ
